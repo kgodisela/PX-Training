@@ -2,7 +2,7 @@
 
 #picture-css
 {
-    width:760px;
+    width:500px;
     height:170px;
 background-image: url("Images/GSPX.png");
 margin:0auto;
@@ -10,14 +10,15 @@ margin:0auto;
 body{
     background: #F4f4f4;
     margin: 0;
-    font-family: 'Montserrat';
+    font-size: 14px;
+    font-family:'Courier New', Courier, monospace
 }
 
 .container
 {
-  width: 780px;
+  width: 500px;
   margin:0 auto;
-  background: rgb(211, 216, 220);  
+  background: rgb(170, 204, 232);  
 }
 .headerlogin{
     font-size: 24px;
@@ -29,10 +30,12 @@ body{
     padding: 25px 0 20px 40px;
     border: 2px solid black;
     background: whitesmoke;
+    font-size: large;
+    font-weight: bold;
 }
 
 .menu{
-    background: #bd38bb;
+    background: #e8921a;
     padding: 5px 0 5px 40px;
 }
 
@@ -57,13 +60,13 @@ cursor: pointer;
 .Button_class2
 {
     text-decoration: none;
-    border-radius: 12px;
+    border-radius: 6px;
 }
 
 
 
 footer{
-    background: white;
+    background: rgb(245, 126, 23);
     padding: 6px 40px 6px 40px;
 }
 
@@ -72,7 +75,7 @@ footer{
 #Loginbutton{
     cursor: pointer;
     box-align: center;
-    padding: 6px 6px 6px;
+    padding: 20px 10px 10px;
 }
 #Loginform input{
 border-radius: 10px;
