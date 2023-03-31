@@ -11,27 +11,26 @@
 function allowlogin(usermail)
 {
     var a = document.getElementById("usermail").value;
-    if (a == 'kgodisela@gainsight.com')
+    if (a == 'demouser@gmail.com' || a == 'kgodisela@gainsight.com')
     { 
         var b= a.substr(0,5);
         alert('valid user');
-        
-      aptrinsic("identify",
+     aptrinsic("identify",
       {
       //User Fields
-        "id": "unique-user-id", // Required for logged in app users
-        "email": "userEmail@address.com",
+        "id": b, // Required for logged in app users
+        "email": a,
         "firstName": "John",
         "lastName": "Smith",
         
-     },
+      },
       {
       //Account Fields
         "id":"IBM", //Required
         "name":"International Business Machine",
         "Program": "Platinum" // flat custom attributes
      });
-      
+        
         location.href = "Page1.html";
     }
     else if(a == '')
